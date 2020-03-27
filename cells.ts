@@ -10,11 +10,11 @@ const cells: NodeListOf<Element> = document.querySelectorAll(".cell");
 cells[generateRandom].id = 'it';
 
 //Created a list of 'cell' that have been clicked
-const clickedCells: any[] = [];
+const clickedCells: HTMLElement[] = [];
 
-interface ClickedCells {
-    backgroundColor: string;
-}
+// interface ClickedCells {
+//     backgroundColor: string;
+// }
 
 //Created a function to change color
 const changeColor = (event) => {

@@ -6,6 +6,9 @@ var cells = document.querySelectorAll(".cell");
 cells[generateRandom].id = 'it';
 //Created a list of 'cell' that have been clicked
 var clickedCells = [];
+// interface ClickedCells {
+//     backgroundColor: string;
+// }
 //Created a function to change color
 var changeColor = function (event) {
     if (event.target.classList.contains('cell')) {
